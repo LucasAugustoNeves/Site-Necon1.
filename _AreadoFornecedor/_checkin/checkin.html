@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111823126-1"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-NN9F73QDM5');
+  </script>
+
+    <!--reCapcha-->
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<script type="text/javascript">
+    var onloadCallback = function() {
+      grecaptcha.render('html_element', {
+        'sitekey' : '6LfJP2MaAAAAABQ6fcS_EPT-Q502l-ibL9LV3pfE'
+      });
+    };
+  </script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>NEcon Contabilidade ---Checkin</title>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.css'>
+  <link rel="stylesheet" href="style1.css">
+  <link rel="stylesheet" href="./selectd.css">
+
+
+</head>
+
+<body>
+  <!-- partial:index.partial.html -->
+  <h1>CHECK-IN no Condomínio
+    <small>Faça o check-in no condomínio</small>
+  </h1>
+
+  <section class="contact-wrap">
+    <form  method="POST" class="contact-form" accept-charset="ASCII" action="destino.php">
+      
+      <!-- selecionar-in -->
+      <div class="col-sm-12">
+        <select type="text" name="Condominiodata" id="Condominiodata" class="js-select2">
+          <option><h1>Condominio:</h1></option>
+          <option valeu="149 - CONDOMINIO RESIDENCIAL AMARILIS">
+            <h1>149 - CONDOMINIO RESIDENCIAL AMARILIS</h1>
+          </option>
+          <option valeu="078 - CONDOMINIO ED. RES. BELLANI">
+            <h1>078 - CONDOMINIO ED. RES. BELLANI</h1>
+          </option>
+          <option valeu="060 - CONDOMINIO EDIFICIO COSTA DO SOL">
+            <h1>060 - CONDOMINIO EDIFICIO COSTA DO SOL</h1>
+          </option>
+          <option valeu="095 - CONDOMINIO ED. RES. DANTE ALIGUIERI BLOCO B">
+            <h1>095 - CONDOMINIO ED. RES. DANTE ALIGUIERI BLOCO B</h1>
+          </option>
+          <option valeu="285 - CONDOMINIO EDIFICIO ELILIANE">
+            <h1>285 - CONDOMINIO EDIFICIO ELILIANE</h1>
+          </option>
+          <option valeu="291 - CONDOMINIO RESIDENCIAL ENCOSTA DOURADA">
+            <h1>291 - CONDOMINIO RESIDENCIAL ENCOSTA DOURADA</h1>
+          </option>
+          <option valeu="192 - CONDOMINIO RESIDENCIAL FIORE DEL MAR">
+            <h1>192 - CONDOMINIO RESIDENCIAL FIORE DEL MAR</h1>
+          </option>
+          <option valeu="110 - CONDOMINIO EDIFICIO CONDOMINIO GREEN HOUSE">
+            <h1>110 - CONDOMINIO EDIFICIO CONDOMINIO GREEN HOUSE</h1>
+          </option>
+          <option valeu="112 - CONDOMINIO EDIFICIO GUARAPARI">
+            <h1>112 - CONDOMINIO EDIFICIO GUARAPARI</h1>
+          </option>
+          <option valeu="074 - CONDOMINIO RESIDENCIAL HEINZ VAHLDIEK">
+            <h1>074 - CONDOMINIO RESIDENCIAL HEINZ VAHLDIEK</h1>
+          </option>
+          <option valeu="147 - CONDOMINIO EDIFICIO RESIDENCIAL LAELIA PURPURATA">
+            <h1>147 - CONDOMINIO EDIFICIO RESIDENCIAL LAELIA PURPURATA</h1>
+          </option>
+          <option valeu="400 - CONDOMINIO PANORÂMICO BOMBINHAS">
+            <h1>400 - CONDOMINIO PANORÂMICO BOMBINHAS</h1>
+          </option>
+          <option valeu="200 - CONDOMINIO EDIFICIO SHANAM">
+            <h1>200 - CONDOMINIO EDIFICIO SHANAM</h1>
+          </option>
+          <option valeu="013 - CONDOMINIO ED. VICTOR HUGO II">
+            <h1>013 - CONDOMINIO ED. VICTOR HUGO II</h1>
+          </option>
+          <option valeu="101 - CONDOMINIO RESIDENCIAL VIRGILIO DELL AGNOLO">
+            <h1>101 - CONDOMINIO RESIDENCIAL VIRGILIO DELL AGNOLO</h1>
+          </option>
+          <option valeu="190 - CONDOMINIO ED. RES. COSTA BRAVA">
+            <h1>190 - CONDOMINIO ED. RES. COSTA BRAVA</h1>
+          </option>
+          <option valeu="093 - CONDOMINIO EDIFICIO DON JUAN">
+            <h1>093 - CONDOMINIO EDIFICIO DON JUAN</h1>
+          </option>
+          <option valeu="380 - CONDOMINIO ED. RES. FLOR DA MANHÃ">
+            <h1>380 - CONDOMINIO ED. RES. FLOR DA MANHÃ</h1>
+          </option>
+          <option valeu="053 - CONDOMINIO RESIDENCIAL DAS QUATRO ILHAS">
+            <h1>053 - CONDOMINIO RESIDENCIAL DAS QUATRO ILHAS</h1>
+          </option>
+          <option valeu="123 - CONDOMINIO RESIDENCIAL ACAPULCO">
+            <h1>123 - CONDOMINIO RESIDENCIAL ACAPULCO</h1>
+          </option>
+          <option valeu="021 - CONDOMINIO ED. RES. DANTE ALIGUIERI BLOCO A">
+            <h1>021 - CONDOMINIO ED. RES. DANTE ALIGUIERI BLOCO A</h1>
+          </option>
+          <option valeu="271 - CONDOMINIO ED. RES. ESTRELA DO MAR III B">
+            <h1>271 - CONDOMINIO ED. RES. ESTRELA DO MAR III B</h1>
+          </option>
+          <option valeu="272 - CONDOMINIO ED. RES. ESTRELA DO MAR III C">
+            <h1>272 - CONDOMINIO ED. RES. ESTRELA DO MAR III C</h1>
+          </option>
+          <option valeu="273 - CONDOMINIO ED. RES. ESTRELA DO MAR III D">
+            <h1>273 - CONDOMINIO ED. RES. ESTRELA DO MAR III D</h1>
+          </option>
+          <option valeu="274 - CONDOMINIO ED. RES. ESTRELA DO MAR III E">
+            <h1>274 - CONDOMINIO ED. RES. ESTRELA DO MAR III E</h1>
+          </option>
+          <option valeu="390 - CONDOMINIO RESIDENCIAL PANORAMA">
+            <h1>390 - CONDOMINIO RESIDENCIAL PANORAMA</h1>
+          </option>
+          <option valeu="118 - CONDOMINIO ED. RESIDENCIAL  SHANGRILA">
+            <h1>118 - CONDOMINIO ED. RESIDENCIAL SHANGRILA</h1>
+          </option>
+          <option valeu="020 - CONDOMINIO ED. VICTOR HUGO I">
+            <h1>020 - CONDOMINIO ED. VICTOR HUGO I</h1>
+          </option>
+          <option valeu="245 - CONDOMINIO EDIFICIO RESIDENCIAL ESTRELA DO MAR II">
+            <h1>245 - CONDOMINIO EDIFICIO RESIDENCIAL ESTRELA DO MAR II</h1>
+          </option>
+          <option valeu="085 - CONDOMINIO RESIDENCIAL LARISSA">
+            <h1>085 - CONDOMINIO RESIDENCIAL LARISSA</h1>
+          </option>
+          <option valeu="133 - CONDOMINIO RESIDENCIAL BOMBAS">
+            <h1>133 - CONDOMINIO RESIDENCIAL BOMBAS</h1>
+          </option>
+          <option valeu="120 - CONDOMINIO ED. ILHA DE BALI">
+            <h1>120 - CONDOMINIO ED. ILHA DE BALI</h1>
+          </option>
+          <option valeu="410 - CONDOMINIO RES.CHARLOTTA">
+            <h1>410 - CONDOMINIO RES.CHARLOTTA</h1>
+          </option>
+          <option valeu="160 - CONDOMINIO EDIFICIO RESIDENCIAL ORLANDO TOBALDINI">
+            <h1>160 - CONDOMINIO EDIFICIO RESIDENCIAL ORLANDO TOBALDINI</h1>
+          </option>
+          <option valeu="124 - CONDOMINIO EDIFICIO GRUTA AZURRA">
+            <h1>124 - CONDOMINIO EDIFICIO GRUTA AZURRA</h1>
+          </option>
+          <option valeu="144 - CONDOMINIO EDIFICIO RESIDENCIAL PARADISO">
+            <h1>144 - CONDOMINIO EDIFICIO RESIDENCIAL PARADISO</h1>
+          </option>
+          <option valeu="145 - CONDOMINIO RES. KARINA">
+            <h1>145 - CONDOMINIO RES. KARINA</h1>
+          </option>
+          <option valeu="155 - CONDOMINIO RESIDENCIAL ALBERTINO ANGELO">
+            <h1>155 - CONDOMINIO RESIDENCIAL ALBERTINO ANGELO</h1>
+          </option>
+          <option valeu="135 - CONDOMINIO RESIDENCIAL BRISAS  DO MAR (BOMBAS)">
+            <h1>135 - CONDOMINIO RESIDENCIAL BRISAS DO MAR (BOMBAS)</h1>
+          </option>
+          <option valeu="126 - CONDOMINIO EDIFICIO ILHA DAS PALMAS">
+            <h1>126 - CONDOMINIO EDIFICIO ILHA DAS PALMAS</h1>
+          </option>
+          <option valeu="105 - CONDOMINIO EDF. RESIDENCIAL MAGGIORE">
+            <h1>105 - CONDOMINIO EDF. RESIDENCIAL MAGGIORE</h1>
+          </option>
+          <option valeu="115 - CONDOMINIO EDF. MIRANTE DO MAR APART HOTEL">
+            <h1>115 - CONDOMINIO EDF. MIRANTE DO MAR APART HOTEL</h1>
+          </option>
+          <option valeu="106 - CONDOMINIO RESIDENCIAL OCTACILIO COSTA">
+            <h1>106 - CONDOMINIO RESIDENCIAL OCTACILIO COSTA</h1>
+          </option>
+          <option valeu="391 - CONDOMINIO ED. RES. PANORAMA II">
+            <h1>391 - CONDOMINIO ED. RES. PANORAMA II</h1>
+          </option>
+          <option valeu="140 - CONDOMINIO EDIFICIO RESIDENCIAL BEIJA-FLOR II">
+            <h1>140 - CONDOMINIO EDIFICIO RESIDENCIAL BEIJA-FLOR II</h1>
+          </option>
+          <option valeu="411 - ASS. DE MORADORES DO COND. RES. MARIA MADALENA">
+            <h1>411 - ASS. DE MORADORES DO COND. RES. MARIA MADALENA</h1>
+          </option>
+          <option valeu="413 - CONDOMINIO RESIDENCIAL ALBERTINO ANGELO II">
+            <h1>413 - CONDOMINIO RESIDENCIAL ALBERTINO ANGELO II</h1>
+          </option>
+          <option valeu="414 - CONDOMINIO EDIFICIO CAMILA">
+            <h1>414 - CONDOMINIO EDIFICIO CAMILA</h1>
+          </option>
+          <option valeu="416 - CONDOMINIO RESIDENCIAL RUFINO S DE ANDRADE">
+            <h1>416 - CONDOMINIO RESIDENCIAL RUFINO S DE ANDRADE</h1>
+          </option>
+          <option valeu="417 - CONDOMINIO EDIFICIO MORADAS DA COLINA">
+            <h1>417 - CONDOMINIO EDIFICIO MORADAS DA COLINA</h1>
+          </option>
+          <option valeu="418 - CAMBOIM (MARCELO NEVES)">
+            <h1>418 - CAMBOIM (MARCELO NEVES)</h1>
+          </option>
+          <option valeu="419 - CONDOMINIO RESIDENCIAL MARBELLA">
+            <h1>419 - CONDOMINIO RESIDENCIAL MARBELLA</h1>
+          </option>
+          <option valeu="420 - CONDOMINIO RESIDENCIAL SANTIAGO">
+            <h1>420 - CONDOMINIO RESIDENCIAL SANTIAGO</h1>
+          </option>
+          <option valeu="422 - CONDOMINIO RESIDENCIAL ILHA DO MEL">
+            <h1>422 - CONDOMINIO RESIDENCIAL ILHA DO MEL</h1>
+          </option>
+          <option valeu="425 - CONDOMINIO EDIFICIO RESIDENCIAL ENCANTO">
+            <h1>425 - CONDOMINIO EDIFICIO RESIDENCIAL ENCANTO</h1>
+          </option>
+          <option valeu="426 - CONDOMINIO RESIDENCIAL BARRA MARES">
+            <h1>426 - CONDOMINIO RESIDENCIAL BARRA MARES</h1>
+          </option>
+          <option valeu="427 - CONDOMINIO RESIDENCIAL ALGAS MARINHAS">
+            <h1>427 - CONDOMINIO RESIDENCIAL ALGAS MARINHAS</h1>
+          </option>
+          <option valeu="429 - CONDOMINIO EDIFICIO  RESIDENCIAL  NONA MARTA">
+            <h1>429 - CONDOMINIO EDIFICIO RESIDENCIAL NONA MARTA</h1>
+          </option>
+          <option valeu="430 - CONDOMINIO ED. FRAGATA">
+            <h1>430 - CONDOMINIO ED. FRAGATA</h1>
+          </option>
+          <option valeu="431 - CONDOMINIO EDIFICIO RESIDENCIAL MARISA">
+            <h1>431 - CONDOMINIO EDIFICIO RESIDENCIAL MARISA</h1>
+          </option>
+          <option valeu="432 - CONDOMINIO ED. RES. PATRICIA">
+            <h1>432 - CONDOMINIO ED. RES. PATRICIA</h1>
+          </option>
+          <option valeu="436 - CONDOMINIO RESIDENCIAL ROSANE">
+            <h1>436 - CONDOMINIO RESIDENCIAL ROSANE</h1>
+          </option>
+          <option valeu="437 - CONDOMINIO EDIFICIO RESIDENCIAL BESENELLO">
+            <h1>437 - CONDOMINIO EDIFICIO RESIDENCIAL BESENELLO</h1>
+          </option>
+          <option valeu="438 - CONDOMINIO RESIDENCIAL ARAGUAIA">
+            <h1>438 - CONDOMINIO RESIDENCIAL ARAGUAIA</h1>
+          </option>
+          <option valeu="440 - CONDOMINIO ED. PRAIA DE FORA">
+            <h1>440 - CONDOMINIO ED. PRAIA DE FORA</h1>
+          </option>
+          <option valeu="443 - CONDOMINIO RESIDENCIAL PORTO PEDRA II">
+            <h1>443 - CONDOMINIO RESIDENCIAL PORTO PEDRA II</h1>
+          </option>
+          <option valeu="444 - CONDOMINIO RESIDENCIAL MORRO DA PEDRA">
+            <h1>444 - CONDOMINIO RESIDENCIAL MORRO DA PEDRA</h1>
+          </option>
+          <option valeu="446 - ASS. DOS ADQ. DE UN. COND. RES. BORBOLETA DO MAR">
+            <h1>446 - ASS. DOS ADQ. DE UN. COND. RES. BORBOLETA DO MAR</h1>
+          </option>
+          <option valeu="447 - CONDOMINIO ED. MORADAS DO BOSQUE">
+            <h1>447 - CONDOMINIO ED. MORADAS DO BOSQUE</h1>
+          </option>
+          <option valeu="448 - CONDOMINIO SOLAR DAS ILHAS">
+            <h1>448 - CONDOMINIO SOLAR DAS ILHAS</h1>
+          </option>
+          <option valeu="450 - CONDOMINIO RESIDENCIAL VILLA FIRENZE">
+            <h1>450 - CONDOMINIO RESIDENCIAL VILLA FIRENZE</h1>
+          </option>
+          <option valeu="451 - CONDOMINIO RESIDENCIAL FREDERICO">
+            <h1>451 - CONDOMINIO RESIDENCIAL FREDERICO</h1>
+          </option>
+          <option valeu="452 - CONDOMINIO ED. RES. WILLIAN">
+            <h1>452 - CONDOMINIO ED. RES. WILLIAN</h1>
+          </option>
+          <option valeu="453 - CONDOMINIO RESIDENCIAL AURORA">
+            <h1>453 - CONDOMINIO RESIDENCIAL AURORA</h1>
+          </option>
+          <option valeu="454 - CONDOMINIO RESIDENCIAL GABRIELA ZANCANARO">
+            <h1>454 - CONDOMINIO RESIDENCIAL GABRIELA ZANCANARO</h1>
+          </option>
+          <option valeu="455 - CONDOMINIO ED. RES. IOLANDA">
+            <h1>455 - CONDOMINIO ED. RES. IOLANDA</h1>
+          </option>
+          <option valeu="456 - CONDOMINIO ED. RESIDENCIAL JARDIM QUATRO ILHAS">
+            <h1>456 - CONDOMINIO ED. RESIDENCIAL JARDIM QUATRO ILHAS</h1>
+          </option>
+          <option valeu="459 - CONDOMINIO ED. NECON CENTRO EXECUTIVO">
+            <h1>459 - CONDOMINIO ED. NECON CENTRO EXECUTIVO</h1>
+          </option>
+          <option valeu="463 - CONDOMINIO ED. RES. ILHA DO ARVOREDO II">
+            <h1>463 - CONDOMINIO ED. RES. ILHA DO ARVOREDO II</h1>
+          </option>
+          <option valeu="464 - ASS. DOS MORADORES DO COND. RES. BAIA AZUL BLOCO C">
+            <h1>464 - ASS. DOS MORADORES DO COND. RES. BAIA AZUL BLOCO C</h1>
+          </option>
+          <option valeu="465 - CONDOMINIO RESIDENCIAL VISTA BELA">
+            <h1>465 - CONDOMINIO RESIDENCIAL VISTA BELA</h1>
+          </option>
+          <option valeu="468 - CONDOMINIO RESIDENCIAL VIDA MANSA">
+            <h1>468 - CONDOMINIO RESIDENCIAL VIDA MANSA</h1>
+          </option>
+          <option valeu="469 - CONDOMINIO RESIDENCIAL VIAPIANA">
+            <h1>469 - CONDOMINIO RESIDENCIAL VIAPIANA</h1>
+          </option>
+          <option valeu="471 - CONDOMINIO RESIDENCIAL SAGITARIUS">
+            <h1>471 - CONDOMINIO RESIDENCIAL SAGITARIUS</h1>
+          </option>
+          <option valeu="472 - CONDOMINIO ED. RES. ALAMEDA VERDE">
+            <h1>472 - CONDOMINIO ED. RES. ALAMEDA VERDE</h1>
+          </option>
+          <option valeu="474 - CONDOMINIO RESIDENCIAL MARISTELA G. FERREIRA">
+            <h1>474 - CONDOMINIO RESIDENCIAL MARISTELA G. FERREIRA</h1>
+          </option>
+          <option valeu="475 - CONDOMINIO BOULEVARD BOMBINHAS">
+            <h1>475 - CONDOMINIO BOULEVARD BOMBINHAS</h1>
+          </option>
+          <option valeu="477 - CONDOMINIO PETIT VILLAGE RESIDENCE">
+            <h1>477 - CONDOMINIO PETIT VILLAGE RESIDENCE</h1>
+          </option>
+          <option valeu="478 - CONDOMINIO ED. AREIA BRANCA">
+            <h1>478 - CONDOMINIO ED. AREIA BRANCA</h1>
+          </option>
+          <option valeu="479 - CONDOMINIO RESIDENCIAL MORADAS">
+            <h1>479 - CONDOMINIO RESIDENCIAL MORADAS</h1>
+          </option>
+          <option valeu="483 - CONDOMINIO ED. PARADISE MARISCAL">
+            <h1>483 - CONDOMINIO ED. PARADISE MARISCAL</h1>
+          </option>
+          <option valeu="484 - CONDOMINIO ED. RES. AGUAS DE MARÇO">
+            <h1>484 - CONDOMINIO ED. RES. AGUAS DE MARÇO</h1>
+          </option>
+          <option valeu="485 - CONDOMINIO RESIDENCIAL EGIDIO PINHEIRO">
+            <h1>485 - CONDOMINIO RESIDENCIAL EGIDIO PINHEIRO</h1>
+          </option>
+          <option valeu="486 - CONDOMINIO PALM BEACH">
+            <h1>486 - CONDOMINIO PALM BEACH</h1>
+          </option>
+          <option valeu="487 - CONDOMINIO EDIFICIO  RESIDENCIAL  PORTOFINO  II">
+            <h1>487 - CONDOMINIO EDIFICIO RESIDENCIAL PORTOFINO II</h1>
+          </option>
+          <option valeu="490 - CONDOMINIO EDIFICIO RESIDENCIAL RIOMAGGIORE">
+            <h1>490 - CONDOMINIO EDIFICIO RESIDENCIAL RIOMAGGIORE</h1>
+          </option>
+          <option valeu="491 - CONDOMINIO VILA QUATRO ILHAS">
+            <h1>491 - CONDOMINIO VILA QUATRO ILHAS</h1>
+          </option>
+          <option valeu="492 - CONDOMINIO EDIFICIO MORADA QUATRO ILHAS">
+            <h1>492 - CONDOMINIO EDIFICIO MORADA QUATRO ILHAS</h1>
+          </option>
+          <option valeu="493 - CONDOMINIO RESIDENCIAL CORES DO MARISCAL">
+            <h1>493 - CONDOMINIO RESIDENCIAL CORES DO MARISCAL</h1>
+          </option>
+          <option valeu="494 - CONDOMINIO RESIDENCIAL GRËN GARTEN">
+            <h1>494 - CONDOMINIO RESIDENCIAL GRËN GARTEN</h1>
+          </option>
+          <option valeu="495 - CONDOMINIO EDF. RESIDENCIAL RAVENNA">
+            <h1>495 - CONDOMINIO EDF. RESIDENCIAL RAVENNA</h1>
+          </option>
+          <option valeu="497 - CONDOMINIO EDIFICIO RES. SOLAR DO CANTO">
+            <h1>497 - CONDOMINIO EDIFICIO RES. SOLAR DO CANTO</h1>
+          </option>
+          <option valeu="499 - CONDOMINIO RESIDENCIAL AQUARIUS">
+            <h1>499 - CONDOMINIO RESIDENCIAL AQUARIUS</h1>
+          </option>
+          <option valeu="500 - CONDOMINIO EDIFICIO RESIDENCIAL PORTOPEDRA">
+            <h1>500 - CONDOMINIO EDIFICIO RESIDENCIAL PORTOPEDRA</h1>
+          </option>
+          <option valeu="501 - CONDOMINIO PUNTA BLÚ MALL BOUTIQUE">
+            <h1>501 - CONDOMINIO PUNTA BLÚ MALL BOUTIQUE</h1>
+          </option>
+          <option valeu="502 - CONDOMINIO PUNTA BLU RESIDENCE">
+            <h1>502 - CONDOMINIO PUNTA BLU RESIDENCE</h1>
+          </option>
+          <option valeu="503 - CONDOMINIO RESIDENCIAL BAIA DOURADA">
+            <h1>503 - CONDOMINIO RESIDENCIAL BAIA DOURADA</h1>
+          </option>
+          <option valeu="504 - CONDOMINIO RESIDENCIAL SIGNUS">
+            <h1>504 - CONDOMINIO RESIDENCIAL SIGNUS</h1>
+          </option>
+          <option valeu="505 - CONDOMINIO EDIFICIO COSTA DO SOL RESIDENCE">
+            <h1>505 - CONDOMINIO EDIFICIO COSTA DO SOL RESIDENCE</h1>
+          </option>
+          <option valeu="506 - CONDOMINIO EDIFICIO DON JUAN RESIDENCE">
+            <h1>506 - CONDOMINIO EDIFICIO DON JUAN RESIDENCE</h1>
+          </option>
+          <option valeu="507 - CONDOMINIO RESIDENCIAL  VARANDAS DO ATLANTICO">
+            <h1>507 - CONDOMINIO RESIDENCIAL VARANDAS DO ATLANTICO</h1>
+          </option>
+          <option valeu="508 - CONDOMINIO EDF. COSTA AZUL RESIDENCE">
+            <h1>508 - CONDOMINIO EDF. COSTA AZUL RESIDENCE</h1>
+          </option>
+          <option valeu="509 - NECON CONTABILIDADE">
+            <h1>509 - NECON CONTABILIDADE</h1>
+          </option>
+          <option valeu="510 - CONDOMINIO RESIDENCIAL ITALY">
+            <h1>510 - CONDOMINIO RESIDENCIAL ITALY</h1>
+          </option>
+          <option valeu="511 - CONDOMINIO RESIDENCIAL DONA ELIDA">
+            <h1>511 - CONDOMINIO RESIDENCIAL DONA ELIDA</h1>
+          </option>
+          <option valeu="512 - CONDOMINIO EDF. COSTA BRAVA RESIDENCE">
+            <h1>512 - CONDOMINIO EDF. COSTA BRAVA RESIDENCE</h1>
+          </option>
+          <option valeu="513 - CONDOMINIO COSTA BELLA RESIDENCE">
+            <h1>513 - CONDOMINIO COSTA BELLA RESIDENCE</h1>
+          </option>
+          <option valeu="514 - CONDOMINIO EDIFICIO COSTA MEXICANA RESIDENCE">
+            <h1>514 - CONDOMINIO EDIFICIO COSTA MEXICANA RESIDENCE</h1>
+          </option>
+          <option valeu="515 - CONDOMINIO RESIDENCIAL AGUAS AZUIS">
+            <h1>515 - CONDOMINIO RESIDENCIAL AGUAS AZUIS</h1>
+          </option>
+          <option valeu="516 - CONDOMINIO RESIDENCIAL FLORES DE VENERANDA">
+            <h1>516 - CONDOMINIO RESIDENCIAL FLORES DE VENERANDA</h1>
+          </option>
+          <option valeu="517 - CONDOMINIO RESIDENCIAL VARADERO">
+            <h1>517 - CONDOMINIO RESIDENCIAL VARADERO</h1>
+          </option>
+          <option valeu="518 - CONDOMINIO EDF. COSTA E CASAGRANDE RESIDENCE">
+            <h1>518 - CONDOMINIO EDF. COSTA E CASAGRANDE RESIDENCE</h1>
+          </option>
+          <option valeu="519 - CONDOMINIO RESIDENCIAL BRISAS DO MAR (QUATRO ILHAS)">
+            <h1>519 - CONDOMINIO RESIDENCIAL BRISAS DO MAR (QUATRO ILHAS)</h1>
+          </option>
+          <option valeu="520 - CONDOMINIO RESIDENCIAL PHILIPP">
+            <h1>520 - CONDOMINIO RESIDENCIAL PHILIPP</h1>
+          </option>
+          <option valeu="521 - CONDOMINIO EDIFICIO MAGUELLI">
+            <h1>521 - CONDOMINIO EDIFICIO MAGUELLI</h1>
+          </option>
+          <option valeu="522 - CONDOMINIO RESIDENCIAL CANTO GRANDE">
+            <h1>522 - CONDOMINIO RESIDENCIAL CANTO GRANDE</h1>
+          </option>
+          <option valeu="523 - CONDOMINIO EDIFICIO RESIDENCIAL PORTO MADERO">
+            <h1>523 - CONDOMINIO EDIFICIO RESIDENCIAL PORTO MADERO</h1>
+          </option>
+          <option valeu="524 - CONDOMINIO ED. RES. ILHA DAS GALES">
+            <h1>524 - CONDOMINIO ED. RES. ILHA DAS GALES</h1>
+          </option>
+          <option valeu="525 - CONDOMINIO RESIDENCIAL MAR DE BELIZE">
+            <h1>525 - CONDOMINIO RESIDENCIAL MAR DE BELIZE</h1>
+          </option>
+          <option valeu="526 - CONDOMINIO RESIDENCIAL VILLA PARADISO">
+            <h1>526 - CONDOMINIO RESIDENCIAL VILLA PARADISO</h1>
+          </option>
+          <option valeu="527 - CONDOMINIO RESIDENCIAL SAN DIEGO">
+            <h1>527 - CONDOMINIO RESIDENCIAL SAN DIEGO</h1>
+          </option>
+          <option valeu="529 - CONDOMINIO ED. BAYSIDE BEACH">
+            <h1>529 - CONDOMINIO ED. BAYSIDE BEACH</h1>
+          </option>
+          <option valeu="530 - CONDOMINIO RESIDENCIAL HESS">
+            <h1>530 - CONDOMINIO RESIDENCIAL HESS</h1>
+          </option>
+          <option valeu="532 - CONDOMINIO RESIDENCIAL ATHENAS">
+            <h1>532 - CONDOMINIO RESIDENCIAL ATHENAS</h1>
+          </option>
+          <option valeu="533 - CONDOMINIO BAYRON BEACH RESIDENCE">
+            <h1>533 - CONDOMINIO BAYRON BEACH RESIDENCE</h1>
+          </option>
+          <option valeu="534 - LA ROSADITA - ASS. DOS MOR. DA RUA BIGUA 336">
+            <h1>534 - LA ROSADITA - ASS. DOS MOR. DA RUA BIGUA 336</h1>
+          </option>
+          <option valeu="540 - CONDOMINIO RESIDENCIAL VILLAGE ECO PARK">
+            <h1>540 - CONDOMINIO RESIDENCIAL VILLAGE ECO PARK</h1>
+          </option>
+          <option valeu="541 - CONDOMINIO VILA MALLORCA">
+            <h1>541 - CONDOMINIO VILA MALLORCA</h1>
+          </option>
+          <option valeu="542 - ASS. DE MORADORES DO RESIDENCIAL FLORENZA">
+            <h1>542 - ASS. DE MORADORES DO RESIDENCIAL FLORENZA</h1>
+          </option>
+          <option valeu="543 - CONDOMINIO NOVO CENTRO">
+            <h1>543 - CONDOMINIO NOVO CENTRO</h1>
+          </option>
+          <option valeu="544 - CONDOMINIO RESIDENCIAL POSITANO">
+            <h1>544 - CONDOMINIO RESIDENCIAL POSITANO</h1>
+          </option>
+          <option valeu="545 - CONDOMINIO VILLA LUNA">
+            <h1>545 - CONDOMINIO VILLA LUNA</h1>
+          </option>
+          <option valeu="546 - EDIFICIO PRINCESS ISABELLY VICTORIA">
+            <h1>546 - EDIFICIO PRINCESS ISABELLY VICTORIA</h1>
+          </option>
+          <option valeu="547 - CONDOMINIO CARMEL BEACH">
+            <h1>547 - CONDOMINIO CARMEL BEACH</h1>
+          </option>
+          <option valeu="548 - CONDOMINIO MANCHESTER">
+            <h1>548 - CONDOMINIO MANCHESTER</h1>
+          </option>
+          <option valeu="549 - CONDOMINIO RESIDENCIAL ARGONAUTA">
+            <h1>549 - CONDOMINIO RESIDENCIAL ARGONAUTA</h1>
+          </option>
+          <option valeu="550 - CONDOMINIO EDIFICIO AION SUITES BOMBINHAS">
+            <h1>550 - CONDOMINIO EDIFICIO AION SUITES BOMBINHAS</h1>
+          </option>
+          <option valeu="551 - CONDOMINIO EDIFICIO TERRA E MAR">
+            <h1>551 - CONDOMINIO EDIFICIO TERRA E MAR</h1>
+          </option>
+          <option valeu="552 - CONDOMINIO RESIDENCIAL ILHA DE SANTORINI">
+            <h1>552 - CONDOMINIO RESIDENCIAL ILHA DE SANTORINI</h1>
+          </option>
+          <option valeu="553 - CONDOMINIO ENSEADA DOS GALEOES">
+            <h1>553 - CONDOMINIO ENSEADA DOS GALEOES</h1>
+          </option>
+          <option valeu="554 - CONDOMINIO RESIDENCIAL AUREA">
+            <h1>554 - CONDOMINIO RESIDENCIAL AUREA</h1>
+          </option>
+          <option valeu="555 - CONDOMINIO RESIDENCIAL CARLOS EDUARDO">
+            <h1>555 - CONDOMINIO RESIDENCIAL CARLOS EDUARDO</h1>
+          </option>
+          <option valeu="558 - EDIFICIO MONTE CARLO RESIDENCE">
+            <h1>558 - EDIFICIO MONTE CARLO RESIDENCE</h1>
+          </option>
+        </select> 
+      </div>
+      <!-- selecionar-fn -->
+
+      <div class="col-sm-12">
+        <div class="group">      
+          <input type="text" name="fornrcedordata" id="fornrcedordata" required>
+          <span class="highlight"></span>
+          <span class="bar"></span>
+          <label>Nome</label>
+        </div>
+      </div>
+
+
+      <div class="col-sm-12">
+           <!--selecionar-IN-->
+           <select type="text" name="tipodata" id="tipodata" class="js-select2" required>
+                     <option value="LN"><h1>Tipo:</h1></option>
+                       
+                     <option value="LIMPEZA"><h1>LIMPEZA</h1></option>
+                      
+                     <option value="VISTORIA"><h1>VISTORIA</h1></option>
+
+                     <option value="VISTORIA DO SINDICO"><h1>VISTORIA DO SINDICO</h1></option>
+
+                     <option value="ABASTECIMENTO DE GAS"><h1>ABASTECIMENTO DE GAS</h1></option>
+                      
+                     <option value="MANUTENCAO DO GAS"><h1>MANUTENCAO DO GAS</h1></option>
+
+                     <option value="MANUTENCAO DA PISCINA"><h1>MANUTENCAO DA PISCINA</h1></option>
+                      
+                     <option value="MANUTENCAO DO ELEVADOR"><h1>MANUTENCAO DO ELEVADOR</h1></option>
+
+                     <option value="MANUTENCAO DO JARDIM"><h1>MANUTENCAO DO JARDIM</h1></option>
+
+                     <option value="MANUTENCAO QUIMICA ETA/ETE"><h1>MANUTENCAO QUIMICA ETA/ETE</h1></option>
+
+                     <option value="REPARO TECNICO NA TV"><h1>REPARO TECNICO NA TV</h1></option>
+
+                     <option value="REPARO TECNICO NO PORTAO"><h1>REPARO TECNICO NO PORTAO</h1></option>
+
+                     <option value="REPARO TECNICO NA INTERNET"><h1>REPARO TECNICO NA INTERNET</h1></option>
+
+                     <option value="REPARO TECNICO ELETRICO"><h1>REPARO TECNICO ELETRICO</h1></option>
+
+                     <option value="REPARO TECNICO NA HIDRAULICA"><h1>REPARO TECNICO NA HIDRAULICA</h1></option>  
+             </select>
+            <!--selecionar-FN--> 
+      </div>
+
+      <div class="col-sm-12">
+        <div class="group">
+        <!--reCapcha-->
+        <div id="html_element" data-theme="dark" data-size="compact" style="margin-left:  25%; margin-right: 25%;"></div>
+      </div>
+      </div>
+
+      <br>
+    
+      <!-- Botão-enviar-in -->
+      <div class="col-sm-12">
+        <input type="submit" name="submit" class="square-button"></input>
+      </div>
+      <!-- Botão-enviar-fn -->
+
+    </form>
+
+     <!--reCapcha-->
+     <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+          async defer>
+      </script> 
+
+  </section>
+
+  <!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.full.js'></script>
+  <script  src="./script.js"></script>
+
+</body>
+</html>

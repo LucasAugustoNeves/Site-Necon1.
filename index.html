@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111823126-1"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-NN9F73QDM5');
+  </script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Informações para o Buscador -->
+  <title>NEcon Contabilidade</title>
+  <meta name="descrição" content="NEcon Contabilidade a 28 Anos no mercado de Bombinhas e região" />
+  <meta name="palavras-chave"
+    content="Contabilidade, Bombinhas, Condominios, INSS, Imposto de Renda, Bombas, Contabilidade, Barato, Melhor, Aluguel de Verão" />
+  <meta name="autor" content="Lucas augusto Neves" />
+  <meta name="copyright" content="Lucas Augusto Neves" />
+  <meta name="robôs" content="index, siga" />
+
+  <!-- web manifest-->
+  <link rel="manifest" href="/site.webmanifest">
+ 
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="_icon\apple-icon-152x152-dunplab-manifest-26329.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="white"/>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="NEcon Contabilidade">
+  <meta name="msapplication-TileImage" content="_icon\apple-icon-144x144-dunplab-manifest-26329.png">
+  <meta name="msapplication-TileColor" content="#FFFFFF">
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body class="fullscreen">
+  <div id="loading">
+    <div id="spinner"></div>
+  </div>
+  <div id="particles-js"></div>
+  <div id="box">
+    <div class="box1 onlywide animated bounceOutLeft" style="animation-delay:1.7s;"></div>
+    <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.8s;"></div>
+    <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.9s;"></div>
+    <div class="box2 animated bounceOutRight" style="animation-delay:1.9s;"></div>
+    <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.8s;"></div>
+    <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.7s;"></div>
+  </div>
+  
+  <a id="about" onclick="showabout()" class="animated  slideInUp" style="animation-delay:2.2s;">Empresas</a>
+  <a id="work" onclick="showwork()" class="animated  slideInUp" style="animation-delay:2.2s;">Condomínios</a>
+  <a id="contact" onclick="showcontact()" class="animated fadeIn slideInUp" style="animation-delay:2.2s;">Contato</a>
+  <!--Pagina Inicial-->
+
+  <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
+
+     <!--Cookies-->
+     <div id="cookiesAlert" style="height:5vh;width:100%;background:rgb(252, 5, 5);position:absolute;left:0;top:0;font-family:sans-serif;line-height:5vh;text-align:center;font-size:15px;">
+      Nossa plataforma utiliza cookies
+      <button style="margin: left 25px;padding:5px 10px;border:none;background:rgb(247, 243, 243);cursor:pointer;" id="acceptBtn" onclick="document.getElementById('cookiesAlert').style.display = 'none';">
+        Aceitar
+      </button>
+    </div>
+    <br/>
+    <br/>
+    <br/>
+    <img src="_img/NEconLogo1.png" alt="">
+    <h1>Contabilidade de Empresas e Condomínios</h1>
+    <div id="menu">
+      <a onclick="showabout()">Empresas</a>
+      <a onclick="showwork()">Condomínios</a>
+      <a onclick="showcontact()">Contato</a>
+    </div>
+
+   
+
+  </div>
+  <!--Condominios-->
+  <div id="work_container" class="container">
+    <header>
+      <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
+      <!--div class="simple-ss-condominio" id="simple-ss-condominio"></div-->
+      <h1 style="font-size: 55px;">Condomínios</h1>
+    </header>
+    <div class="cards-contatos" style="margin-top: 10vh;">
+      <div class="card-contato">
+        <h2>Área do Condômino</h2>
+        <p>
+          <a href="_Seletor/seletor.html" rel="nofollow" target="_self" class="btnir-share-button"></a>
+        </p>
+      </div>
+      <div class="card-contato">
+        <h2>Área do Fornecedor</h2>
+        <p></p>
+        <a href="_AreadoFornecedor/_painelF.html" rel="nofollow" target="_self" class="btnir-share-button"></a>
+      </div>
+      <div class="card-contato">
+        <h2>Área do Zelador</h2>
+        <p></p>
+        <a href="_AreadoZelador/_painelZ.html" rel="nofollow" target="_self" class="btnir-share-button"></a>
+      </div>
+    </div>
+  </div>
+  <!--Empresas-->
+  <div id="about_container" class="container">
+    <header>
+      <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
+      <!--div class="simple-ss-empresa" id="simple-ss-empresa"></div-->
+      <h1 style="font-size: 55px;">Empresas</h1>
+    </header>
+    <div class="cards-empresas" style="margin-top: 10vh;">
+      <div class="card-empresa">
+        <h2>Quero Conhecer</h2>
+        <p>
+          <a href="_Propaganda/_slide/slide.html" rel="nofollow" target="_self" class="btnir-share-button"></a>
+        </p>
+
+      </div>
+      <div class="card-empresa">
+        <h2>Área do Empresário</h2>
+        <p></p>
+        <a href="_AreadoEmpresario/_painelE.html" rel="nofollow" target="_self" class="btnir-share-button"></a>
+      </div>
+    </div>
+  </div>
+  <!--Contato-->
+  <div id="contact_container" class="containercontato">
+    <div onclick="closecontact()"><i class="fas fa-angle-down"></i></div>
+    <h1>NEcon Contabilidade Contatos</h1>
+    <div class="cards-contatos">
+      <div class="card-contato">
+        <h2>Telefone e Whatsapp Comercial</h2>
+        <p>047 33691069 <br> 08:00 às 18:00 horas de Segunda a Sexta</p>
+        <a href="https://api.whatsapp.com/send?phone=554733691069" rel="nofollow" target="_blank"
+          class="whatsapp-share-button"></a>
+      </div>
+      <div class="card-contato">
+        <h2>Plantão Somente Urgências</h2>
+        <p>047 984320830<br> 18:00 às 23:00 de Segunda a Sexta <br><br>
+           8:00 às 23:00 no Sábado, Domingo e Feriados</p>
+        <a href="https://api.whatsapp.com/send?phone=5547984320830" rel="nofollow" target="_blank"
+          class="whatsapp-share-button"></a>
+      </div>
+
+      <div class="card-contato">
+        <h2>Email para Contato</h2>
+        <p>Entre em contato pelo email necon@necon.com.br</p>
+        <a href="mailto:necon@necon.com.br" rel="nofollow" target="_blank" class="email-share-button"></a>
+      </div>
+
+      <div class="card-contato">
+        <h2>Endereço</h2>
+        <p>R. Baleia Jubarte, 62, Bombinhas - SC, 88215-000</p>
+        <a href="https://g.page/necon-contabilidade?share" rel="nofollow" target="_blank" class="maps-share-button"></a>
+      </div>
+
+    </div>
+  </div>
+  <!--fundo-->
+  <div id="footer">
+  
+  </div>
+
+   <!--Estilo csss da pagina-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+   <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
+   <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+     integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+   <link rel="stylesheet" href="index.css">
+ 
+
+  <script src="index.js" type="text/javascript"></script>
+  <script src="particles.js"></script>
+  <script src="app.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

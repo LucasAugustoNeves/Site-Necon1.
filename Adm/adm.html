@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adm</title>
+   
+<!--reCapcha-->
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<script type="text/javascript">
+    var onloadCallback = function() {
+      grecaptcha.render('html_element', {
+        'sitekey' : '6LfJP2MaAAAAABQ6fcS_EPT-Q502l-ibL9LV3pfE'
+      });
+    };
+  </script>
+
+</head>
+<body>
+  
+    <h1>Painel ADM</h1>
+    <br>
+    <h3>Links conferir txt</h3>
+    <a href="../_ArquivosTXT\Checkin.txt">Checkin.txt</a>
+    <a href="../_ArquivosTXT\Condominos.txt">Condominos.txt</a>
+    <a href="../_ArquivosTXT\Empenhos.txt">Empenhos.txt</a>
+    <a href="../_ArquivosTXT\Ocorrencias.txt">Ocorrencias.txt</a>
+    <a href="../_ArquivosTXT\Orcamentos.txt">Orcamentos.txt</a>
+    <br>
+    <h3>Links conferir csv</h3>
+    <a href="../_ArquivosTXT\Checkin.csv">Checkin.csv</a>
+    <a href="../_ArquivosTXT\Condominos.csv">Condominos.csv</a>
+    <a href="../_ArquivosTXT\Empenhos.csv">Empenhos.csv</a>
+    <a href="../_ArquivosTXT\Ocorrencias.csv">Ocorrencias.csv</a>
+    <a href="../_ArquivosTXT\Orcamentos.csv">Orcamentos.csv</a>
+    <br>
+    <a href="Test.txt">Test.txt</a>
+    <a href="frame.html">Frame</a>
+    <a href="ifrane.html">iFrane</a>
+    <br>
+    <br>
+    <a href="https://analytics.google.com/analytics/web/?authuser=0#/p258048656/reports/defaulthome?params=_u..nav%3Ddefault%26_u..comparisons%3D%5B%7B%22name%22:%22Todos%20os%20usu%C3%A1rios%22,%22filters%22:%5B%7B%22isCaseSensitive%22:true,%22expression%22:%220%22,%22fieldName%22:%22audience%22%7D%5D%7D%5D">GoogleAnalistic</a>
+   <a href=" https://www.google.com/recaptcha/admin/site/442712009?hl=pt-BR
+   ">reCapcha</a>  
+
+    <form action="adm.php" method="POST">
+      <select type="text" name="tipodata" id="tipodata" required>
+        <option value="LN">
+          <h1>Tipo:</h1>
+        </option>
+        <option value="LIMPEZA">
+          <h1>LIMPEZA</h1>
+        </option>
+        <option value="VISTORIA">
+          <h1>VISTORIA</h1>
+        </option>
+        <option value="VISTORIA DO SINDICO">
+          <h1>VISTORIA DO SINDICO</h1>
+        </option>
+        <option value="ABASTECIMENTO DE GAS">
+          <h1>ABASTECIMENTO DE GAS</h1>
+        </option>
+        <option value="MANUTENCAO DO GAS">
+          <h1>MANUTENCAO DO GAS</h1>
+        </option>
+        <option value="MANUTENCAO DA PISCINA">
+          <h1>MANUTENCAO DA PISCINA</h1>
+        </option>
+        <option value="MANUTENCAO DO ELEVADOR">
+          <h1>MANUTENCAO DO ELEVADOR</h1>
+        </option>
+        <option value="MANUTENCAO DO JARDIM">
+          <h1>MANUTENCAO DO JARDIM</h1>
+        </option>
+        <option value="REPARO TECNICO NA TV">
+          <h1>REPARO TECNICO NA TV</h1>
+        </option>
+        <option value="REPARO TECNICO NO PORTAO">
+          <h1>REPARO TECNICO NO PORTAO</h1>
+        </option>
+        <option value="REPARO TECNICO NA INTERNET">
+          <h1>REPARO TECNICO NA INTERNET</h1>
+        </option>
+
+        <option value="REPARO TECNICO ELETRICO">
+          <h1>REPARO TECNICO ELETRICO</h1>
+        </option>
+        <option value="REPARO TECNICO NA HIDRAULICA">
+          <h1>REPARO TECNICO NA HIDRAULICA</h1>
+        </option>
+      </select>
+
+        <!--reCapcha-->
+        <div id="html_element" data-theme="dark" data-size="compact"></div>
+
+        <br>
+        <input type="submit" name="submit" class="square-button"></input>
+      </form>
+
+      <!--reCapcha-->
+     <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+          async defer>
+      </script> 
+</body>
+</html>

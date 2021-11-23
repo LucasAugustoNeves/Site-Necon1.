@@ -1,0 +1,149 @@
+﻿<html>
+
+<head>
+  <html lang="pt-br">
+  <meta charset="utf-8" />
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+  </script>
+  <!--Lendo arquivo txt-->
+  <script language="JavaScript1.2" src="EMPRINF.TXT">
+  </script>
+  <script>
+    var Pa0 = ROV_ARRAY[0];
+    var Pa1 = ROV_ARRAY[1];
+    var Pa2 = ROV_ARRAY[2];
+    var Pa3 = ROV_ARRAY[3];
+    var Pa4 = ROV_ARRAY[4];
+    var Pa5 = ROV_ARRAY[5];
+    var Pa6 = ROV_ARRAY[6];
+    var Pa7 = ROV_ARRAY[7];
+
+    var Pa1D = 'Receita Comercial = ' + (Pa1.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }))
+    var Pa2D = 'Custo Comercial = ' + (Pa2.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }))
+    var Pa3D = 'Folha e Encargos = ' + (Pa3.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }))
+    var Pa4D = 'Impostos s/ Receita = ' + (Pa4.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }))
+    var Pa5D = 'Saldo Fiscal Estimado = ' + (Pa5.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }))
+
+  </script>
+
+  <script>
+    google.charts.load('current', {
+      'packages': ['corechart']
+    });
+
+    function desenharPizza() {
+
+      var tabela = new google.visualization.DataTable();
+      tabela.addColumn('string', 'categorias');
+      tabela.addColumn('number', 'valores');
+      tabela.addRows([
+        [Pa1D, Pa1],
+        [Pa2D, Pa2],
+        [Pa3D, Pa3],
+        [Pa4D, Pa4],
+        [Pa5D, Pa5]
+     ]);
+
+      var opcoes = {
+        'title': Pa0 + ' - (Toque no GRÁFICO para DESTACAR os valores - F5 Atualizar) - ' + Pa7,
+        'height': 600,
+        'width': 1200,
+        is3D: true
+      };
+
+      if (Pa5 > 0) {
+        var grafico = new google.visualization.PieChart(document.getElementById('graficoPizza'));
+        grafico.draw(tabela, opcoes);
+      } else {
+        var grafico = new google.visualization.BarChart(document.getElementById('graficoPizza'));
+        grafico.draw(tabela, opcoes);
+      }
+    }
+
+    google.charts.setOnLoadCallback(desenharPizza);
+
+  </script>
+</head>
+<body>
+  <div id="graficoPizza"></div>
+</body>
+
+
+<head>
+
+  <html lang="pt-br">
+  <meta charset="utf-8" />
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+  </script>
+  <!--Lendo arquivo txt-->
+  <script language="JavaScript1.2" src="EMPRINF.TXT">
+  </script>
+
+  <script>
+    var Pb0 = ROV_ARRAY[0];
+    var Pb1 = ROV_ARRAY[1];
+    var Pb2 = ROV_ARRAY[2];
+    var Pb3 = ROV_ARRAY[3];
+    var Pb4 = ROV_ARRAY[4];
+    var Pb5 = ROV_ARRAY[5];
+    var Pb6 = ROV_ARRAY[6];
+    var Pb7 = ROV_ARRAY[7];
+
+    var Pb1D = 'Receita Comercial = ' + (Pb1.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }))
+    var Pb2D = 'Custo Comercial = ' + (Pb2.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }))
+    var Pb3D = 'Folha e Encargos = ' + (Pb3.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }))
+    var Pb4D = 'Impostos s/ Receita = ' + (Pb4.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }))
+    var Pb5D = 'Saldo Fiscal Estimado = ' + (Pb5.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }))
+
+  </script>
+
+  <script>
+    google.charts.load('current', {
+      'packages': ['corechart']
+    });
+
+    function desenharDRM() {
+
+      var tabela = new google.visualization.DataTable();
+      tabela.addColumn('string', 'categorias');
+      tabela.addColumn('number', 'valores');
+      tabela.addRows([
+        [Pb1D, Pb1],
+        [Pb2D, Pb2],
+        [Pb3D, Pb3],
+        [Pb4D, Pb4],
+        [Pb5D, Pb5]
+      ]);
+
+      var opcoes = {
+        'title': Pb0 + ' - (Toque no GRÁFICO para DESTACAR os valores - F5 Atualizar) - ' + Pa7,
+        'height': 600,
+        'width': 1200,
+        is3D:true
+      };
+
+      if (Pb5 > 0) {
+        var grafico = new google.visualization.BarChart(document.getElementById('graficoDRM'));
+        grafico.draw(tabela, opcoes);
+      } else {
+        var grafico = new google.visualization.BarChart(document.getElementById('graficoDRM'));
+        grafico.draw(tabela, opcoes);
+      }
+    }
+
+    google.charts.setOnLoadCallback(desenharDRM);
+
+  </script>
+</head>
+
+<body>
+  <div id="graficoDRM"></div>
+</body>
+
+<body>
+  <div id="graficoDRE"></div>
+</body>
+
+</html>

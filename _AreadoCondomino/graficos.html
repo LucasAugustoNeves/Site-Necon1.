@@ -1,0 +1,228 @@
+﻿<html>
+
+<head>
+  <html lang="pt-br">
+  <meta charset="utf-8" />
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+  </script>
+  <!--Lendo arquivo txt-->
+  <script language="JavaScript1.2" src="CONDINF.TXT">
+  </script>
+  <script>
+    var Pa0 = ROV_ARRAY[0];
+    var Pa1 = ROV_ARRAY[1];
+    var Pa2 = ROV_ARRAY[2];
+    var Pa3 = ROV_ARRAY[3];
+    var Pa4 = ROV_ARRAY[4];
+    var Pa5 = ROV_ARRAY[5];
+    var Pa6 = ROV_ARRAY[6];
+    var Pa7 = ROV_ARRAY[7];
+
+    var Pa4D = 'Saldo disponível - Agora ' + (Pa4.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }))
+    var Pa5D = 'Saldo Indisponível - Agora ' + (Pa5.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }))
+    var Pa6D = 'Saldo Contas em Aberto - Agora ' + (Pa6.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }))
+
+  </script>
+
+  <script>
+    google.charts.load('current', {
+      'packages': ['corechart']
+    });
+
+    function desenharPizza() {
+
+      var tabela = new google.visualization.DataTable();
+      tabela.addColumn('string', 'categorias');
+      tabela.addColumn('number', 'valores');
+      tabela.addRows([
+
+        [Pa4D, Pa4],
+        [Pa5D, Pa5],
+        [Pa6D, Pa6]
+      ]);
+
+      var opcoes = {
+        'title': Pa0 + ' - (SALDOS TOTAIS em TEMPO REAL do MÊS CORRENTE - Toque no GRÁFICO para DESTACAR os valores - F5 Atualizar) -  ' + Pa7,
+        'height': 600,
+        'width': 1200,
+        is3D:true, colors:['blue','orange','red']
+      };
+
+      if (Pa4 > 0) {
+        var grafico = new google.visualization.PieChart(document.getElementById('graficoPizza'));
+        grafico.draw(tabela, opcoes);
+      } else {
+        var grafico = new google.visualization.BarChart(document.getElementById('graficoPizza'));
+        grafico.draw(tabela, opcoes);
+      }
+    }
+
+    google.charts.setOnLoadCallback(desenharPizza);
+
+  </script>
+</head>
+<body>
+  <div id="graficoPizza"></div>
+</body>
+
+
+<head>
+
+  <html lang="pt-br">
+  <meta charset="utf-8" />
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+  </script>
+  <!--Lendo arquivo txt-->
+  <script language="JavaScript1.2" src="CONDINF.TXT">
+  </script>
+
+  <script>
+    var Pb0 = ROV_ARRAY[0];
+    var Pb1 = ROV_ARRAY[1];
+    var Pb2 = ROV_ARRAY[2];
+    var Pb3 = ROV_ARRAY[3];
+    var Pb4 = ROV_ARRAY[4];
+    var Pb5 = ROV_ARRAY[5];
+    var Pb6 = ROV_ARRAY[6];
+    var Pb7 = ROV_ARRAY[7];
+
+    var Pb1D = 'Saldo Inicial ' + (Pb1.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }))
+    var Pb2D = 'Saldo Entradas ' + (Pb2.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }))
+    var Pb3D = 'Saldo Saidas ' + (Pb3.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }))
+    var Pb4D = 'Saldo Final ' + (Pb4.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }))
+    var Pb5D = 'Saldo Indisponível ' + (Pb5.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }))
+    var Pb6D = 'Saldo Contas em Aberto ' + (Pb6.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }))
+
+  </script>
+
+  <script>
+    google.charts.load('current', {
+      'packages': ['corechart']
+    });
+
+    function desenharDRM() {
+
+      var tabela = new google.visualization.DataTable();
+      tabela.addColumn('string', 'categorias');
+      tabela.addColumn('number', 'valores');
+      tabela.addRows([
+
+        [Pb1D, Pb1],
+        [Pb2D, Pb2],
+        [Pb3D, Pb3],
+        [Pb4D, Pb4],
+        [Pb5D, Pb5],
+        [Pb6D, Pb6]
+      ]);
+
+      var opcoes = {
+        'title': Pb0 + ' - (SALDOS TOTAIS em TEMPO REAL do MÊS CORRENTE - Toque no GRÁFICO para DESTACAR os valores - ATENÇÃO: O DEMONSTRATIVO DETALHADO com TODAS entradas e saídas é enviado imediatamente após o encerramento do mês corrente e conciliação bancária)  - ' + Pb7,
+        'height': 600,
+        'width': 1200,
+        is3D:true, colors:['blue']
+      };
+
+      if (Pb1 > 0) {
+        var grafico = new google.visualization.BarChart(document.getElementById('graficoDRM'));
+        grafico.draw(tabela, opcoes);
+      } else {
+        var grafico = new google.visualization.BarChart(document.getElementById('graficoDRM'));
+        grafico.draw(tabela, opcoes);
+      }
+    }
+
+    google.charts.setOnLoadCallback(desenharDRM);
+
+  </script>
+</head>
+
+<body>
+  <div id="graficoDRM"></div>
+</body>
+
+
+
+<head>
+  <html lang="pt-br">
+  <meta charset="utf-8" />
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+  <script>
+   var ANO = new Date
+   var ANO = (ANO.getFullYear())
+   var DREANO = ('GRAFICODRE' + (ANO) + '.TXT')
+  </script>
+
+  </script>
+  <!--Lendo arquivo txt-->
+  <script language="JavaScript1.2" src='GRAFICODRE.TXT'>
+  </script>
+
+  <script>
+    var Pc0 = ROV_ARRAY[0];
+    var Pc1 = ROV_ARRAY[1];
+    var Pc2 = ROV_ARRAY[2];
+    var Pc3 = ROV_ARRAY[3];
+    var Pc4 = ROV_ARRAY[4];
+    var Pc5 = ROV_ARRAY[5];
+    var Pc6 = ROV_ARRAY[6];
+    var Pc7 = ROV_ARRAY[7];
+
+    var Pc1D = 'Saldo Inicial ' + (Pc1.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }))
+    var Pc2D = 'Saldo Entradas ' + (Pc2.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }))
+    var Pc3D = 'Saldo Saidas ' + (Pc3.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }))
+    var Pc4D = 'Saldo Final ' + (Pc4.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }))
+    var Pc5D = 'Saldo Indisponível ' + (Pc5.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }))
+    var Pc6D = 'Saldo Contas em Aberto ' + (Pc6.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }))
+
+  </script>
+
+  <script>
+    google.charts.load('current', {
+      'packages': ['corechart']
+    });
+
+    function desenharDRE() {
+
+      var tabela = new google.visualization.DataTable();
+      tabela.addColumn('string', 'categorias');
+      tabela.addColumn('number', 'valores');
+      tabela.addRows([
+
+        [Pc1D, Pc1],
+        [Pc2D, Pc2],
+        [Pc3D, Pc3],
+        [Pc4D, Pc4],
+        [Pc5D, Pc5],
+        [Pc6D, Pc6]
+      ]);
+
+      var opcoes = {
+        'title': Pc0 + ' - (SALDOS TOTAIS do PERÍODO - Toque no GRÁFICO para DESTACAR os valores) - ' + Pc7,
+        'height': 600,
+        'width': 1200,
+        is3D:true, colors:['navy']
+      };
+
+      if (Pc1 > 0) {
+        var grafico = new google.visualization.BarChart(document.getElementById('graficoDRE'));
+        grafico.draw(tabela, opcoes);
+      } else {
+        var grafico = new google.visualization.BarChart(document.getElementById('graficoDRE'));
+        grafico.draw(tabela, opcoes);
+      }
+    }
+
+    google.charts.setOnLoadCallback(desenharDRE);
+
+  </script>
+
+</head>
+
+<body>
+  <div id="graficoDRE"></div>
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "pwa-chrome",
+            "request": "launch",
+            "name": "Open test.html",
+            "file": "c:\\Program Files (x86)\\EasyPHP-Webserver-14.1b2\\www\\Site-Necon1.0\\index.html"
+        }
+    ]
+}

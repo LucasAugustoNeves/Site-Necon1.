@@ -1,0 +1,7 @@
+
+
+errordocument 400 /400.html
+errordocument 401 /401.html
+errordocument 403 /403.html
+errordocument 404 /404.html
+errordocument 500 /500.html

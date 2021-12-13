@@ -1,3 +1,77 @@
-
-*545 - CONDOMINIO VILLA LUNA                                                                         ;ILUMISUL COM MATERIAIS ELETRICOS LTDA 000070                              ;3.1.1.51 - MATERIAL ELETRICO                      ;124,00              ;65276               ;INCLUSAO            ;08/09/2021          ;1631098209          ;          
-#-DISJ. SOPRANO                                                                                       ;
+
+*485 - CONDOMINIO RESIDENCIAL EGIDIO PINHEIRO                                                        ;ALISON ROBERTO GONSATTO 004235                                            ;3.1.1.51 - SERVICO ELETRICO                       ;160,00              ;988                 ;INCLUSAO            ;02/12/2021          ;1638442681          ;          
+#-Regular boias elétricas, troca de boia mecânica 26/11 com material                                  ;
+
+*451 - CONDOMINIO RESIDENCIAL FREDERICO                                                              ;ALISON ROBERTO GONSATTO 004235                                            ;3.1.1.51 - SERVICO ELETRICO                       ;420,00              ;989                 ;INCLUSAO            ;02/12/2021          ;1638442878          ;          
+#-Troca 3 sensores, conserto e troca rondana portão garagem 26/11 com material                        ;
+
+*484 - CONDOMINIO ED. RES. AGUAS DE MARÇO                                                            ;ALISON ROBERTO GONSATTO 004235                                            ;3.1.1.41 - CONSERTO PORTAO                        ;220,00              ;990                 ;INCLUSAO            ;02/12/2021          ;1638443035          ;          
+#-Regular mola, troca da trava batendo 26/11                                                          ;
+
+*432 - CONDOMINIO ED. RES. PATRICIA                                                                  ;ALISON ROBERTO GONSATTO 004235                                            ;3.1.1.51 - SERVICO HIDRAULICO                     ;870,00              ;991                 ;INCLUSAO            ;02/12/2021          ;1638443228          ;          
+#-Troca motor fossa, cano flexível fossa, lavar cisternas e instalar duas válvulas de retenção nas bombas de água 26/11 com válvulas;
+
+*516 - CONDOMINIO RESIDENCIAL FLORES DE VENERANDA                                                    ;ALISON ROBERTO GONSATTO 004235                                            ;3.1.1.41 - CONSERTO PORTAO                        ;180,00              ;992                 ;INCLUSAO            ;02/12/2021          ;1638443552          ;          
+#-Regular mola hall, e levantar mola                                                                  ;
+
+*140 - CONDOMINIO EDIFICIO RESIDENCIAL BEIJA-FLOR II                                                 ;ALISON ROBERTO GONSATTO 004235                                            ;3.1.1.51 - SERVICO ELETRICO                       ;180,00              ;993                 ;INCLUSAO            ;02/12/2021          ;1638443685          ;          
+#-Troca boia eletrica caixa de água com material                                                      ;
+
+*400 - CONDOMINIO PANORÂMICO BOMBINHAS                                                               ;BOMBINHAS LIMP PRODUTOS DE LIMPEZA LTDA 001015                            ;3.1.1.31 - MATERIAL LIMPEZA                       ;273,70              ;16699               ;INCLUSAO            ;02/12/2021          ;1638443707          ;1A        
+#-SACOS PARA LIXO                                                                                     ;
+
+*475 - CONDOMINIO BOULEVARD BOMBINHAS                                                                ;BOMBINHAS LIMP PRODUTOS DE LIMPEZA LTDA 001015                            ;3.1.1.31 - MATERIAL LIMPEZA                       ;195,00              ;16722               ;INCLUSAO            ;02/12/2021          ;1638443749          ;1A        
+#-CLORO                                                                                               ;
+
+*502 - CONDOMINIO PUNTA BLU RESIDENCE                                                                ;BOMBINHAS LIMP PRODUTOS DE LIMPEZA LTDA 001015                            ;3.1.1.31 - MATERIAL LIMPEZA                       ;1468,80             ;16690               ;INCLUSAO            ;02/12/2021          ;1638443817          ;1A        
+#-ALVEJANTE ODORIZANTE ALCOOL SACO PARA LIXO VASSOURA SAPOLIO                                         ;
+
+*506 - CONDOMINIO EDIFICIO DON JUAN RESIDENCE                                                        ;ALISON ROBERTO GONSATTO 004235                                            ;3.1.1.51 - SERVICO HIDRAULICO                     ;80,00               ;994                 ;INCLUSAO            ;02/12/2021          ;1638443847          ;          
+#-Verificar pressão de água do prédio, ar no sistema 28/11                                            ;
+
+*472 - CONDOMINIO ED. RES. ALAMEDA VERDE                                                             ;BOMBINHAS LIMP PRODUTOS DE LIMPEZA LTDA 001015                            ;3.1.1.31 - MATERIAL LIMPEZA                       ;166,65              ;16686               ;INCLUSAO            ;02/12/2021          ;1638443912          ;1A        
+#-CLORO LIMPADOR PERFUMADO TOALHA GLADE E VASSOURA                                                    ;
+
+*200 - CONDOMINIO EDIFICIO SHANAM                                                                    ;ALISON ROBERTO GONSATTO 004235                                            ;3.1.1.51 - SERVICO HIDRAULICO                     ;180,00              ;995                 ;INCLUSAO            ;02/12/2021          ;1638443956          ;          
+#-Conserto encamento motobomba com material                                                           ;
+
+*105 - CONDOMINIO EDF. RESIDENCIAL MAGGIORE                                                          ;BOMBINHAS LIMP PRODUTOS DE LIMPEZA LTDA 001015                            ;3.1.1.31 - MATERIAL LIMPEZA                       ;136,90              ;16711               ;INCLUSAO            ;02/12/2021          ;1638443963          ;1A        
+#-CLORO PANO ODORIZANTE LIMPADOR PERFUMADO                                                            ;
+
+*544 - CONDOMINIO RESIDENCIAL POSITANO                                                               ;ALISON ROBERTO GONSATTO 004235                                            ;3.1.1.51 - SERVICO HIDRAULICO                     ;300,00              ;996                 ;INCLUSAO            ;02/12/2021          ;1638444146          ;          
+#-Limpeza poço de água, verificar boias, regular porta hall 30/11                                     ;
+
+*145 - CONDOMINIO RES. KARINA                                                                        ;ALISON ROBERTO GONSATTO 004235                                            ;3.1.1.51 - SERVICO HIDRAULICO                     ;1870,00             ;997                 ;INCLUSAO            ;02/12/2021          ;1638444303          ;          
+#-Lavar caixa d'água e cisterna, pintura teto garagem, cópia chave acesso telhado                     ;
+
+*486 - CONDOMINIO PALM BEACH                                                                         ;ILUMISUL COM MATERIAIS ELETRICOS LTDA 000070                              ;3.1.1.51 - MATERIAL ELETRICO                      ;68,68               ;67992               ;INCLUSAO            ;02/12/2021          ;1638444775          ;          
+#-RELE FOTOELETRICO - LAMP. A60                                                                       ;
+
+*123 - CONDOMINIO RESIDENCIAL ACAPULCO                                                               ;ISRAEL ALEXANDRE DA LUZ 000090                                            ;3.1.1.43 - CONSERTO INTERFONE                     ;120,00              ;25330               ;INCLUSAO            ;02/12/2021          ;1638446251          ;          
+#-fechadura do portao de banhista caiu foi fixado com massa pu                                        ;
+
+*085 - CONDOMINIO RESIDENCIAL LARISSA                                                                ;ISRAEL ALEXANDRE DA LUZ 000090                                            ;3.1.1.41 - CONSERTO PORTAO                        ;780,00              ;25329               ;INCLUSAO            ;02/12/2021          ;1638446437          ;          
+#-foi configurado 13 controles novos que abrem os dois portoes                                        ;
+
+*552 - CONDOMINIO RESIDENCIAL ILHA DE SANTORINI                                                      ;ISRAEL ALEXANDRE DA LUZ 000090                                            ;3.1.1.41 - CONSERTO PORTAO                        ;120,00              ;25321               ;INCLUSAO            ;02/12/2021          ;1638446530          ;          
+#-dia 26/11 foi trocado sensor de fim de curso do portao 05                                           ;
+
+*552 - CONDOMINIO RESIDENCIAL ILHA DE SANTORINI                                                      ;ISRAEL ALEXANDRE DA LUZ 000090                                            ;3.1.1.41 - CONSERTO PORTAO                        ;120,00              ;25328               ;INCLUSAO            ;02/12/2021          ;1638446668          ;          
+#-dia 29/11 foi trocado sensor de fim de curso do poprtao 01                                          ;
+
+*503 - CONDOMINIO RESIDENCIAL BAIA DOURADA                                                           ;ISRAEL ALEXANDRE DA LUZ 000090                                            ;3.1.1.43 - CONSERTO INTERFONE                     ;120,00              ;25326               ;INCLUSAO            ;02/12/2021          ;1638446732          ;          
+#-foi trocado fone da casa do zelador                                                                 ;
+
+*451 - CONDOMINIO RESIDENCIAL FREDERICO                                                              ;ISRAEL ALEXANDRE DA LUZ 000090                                            ;3.1.1.41 - CONSERTO PORTAO                        ;350,00              ;25324               ;INCLUSAO            ;02/12/2021          ;1638446804          ;          
+#-foi instalado sensor barreira no portao da garagem                                                  ;
+
+*469 - CONDOMINIO RESIDENCIAL VIAPIANA                                                               ;ISRAEL ALEXANDRE DA LUZ 000090                                            ;3.1.1.41 - CONSERTO PORTAO                        ;100,00              ;25320               ;INCLUSAO            ;02/12/2021          ;1638446883          ;          
+#-revisado portao que nao estava fechando 
+fim de curso estava invertido                             ;
+
+*416 - CONDOMINIO RESIDENCIAL RUFINO S DE ANDRADE                                                    ;ISRAEL ALEXANDRE DA LUZ 000090                                            ;3.1.1.43 - CONSERTO INTERFONE                     ;3420,00             ;25319               ;INCLUSAO            ;02/12/2021          ;1638447013          ;          
+#-instalaçao de interfone conforme orçamento                                                          ;
+
+*465 - CONDOMINIO RESIDENCIAL VISTA BELA                                                             ;ISRAEL ALEXANDRE DA LUZ 000090                                            ;3.1.1.39 - CONSERTO CFTV/PARABOLICA               ;3100,00             ;25331               ;INCLUSAO            ;02/12/2021          ;1638447404          ;          
+#-foi trocado dvr das cameras 
+instalado um dvr 3016 intelbras com hd 4TB e feito acesso remoto      ;

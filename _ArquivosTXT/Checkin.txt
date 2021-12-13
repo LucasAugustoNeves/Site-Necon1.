@@ -1,0 +1,14 @@
+
+*135 - CONDOMINIO RESIDENCIAL BRISAS DO MAR (BOMBAS)                                                 ;maria celoni girioli                                                      ;LIMPEZA                                           ;02/12/2021          ;1638438023          ;
+
+*135 - CONDOMINIO RESIDENCIAL BRISAS DO MAR (BOMBAS)                                                 ;maria celoni girioli                                                      ;MANUTENCAO DA PISCINA                             ;02/12/2021          ;1638438057          ;
+
+*507 - CONDOMINIO RESIDENCIAL VARANDAS DO ATLANTICO                                                  ;Douglas Miranda                                                           ;MANUTENCAO DA PISCINA                             ;02/12/2021          ;1638441167          ;
+
+*115 - CONDOMINIO EDF. MIRANTE DO MAR APART HOTEL                                                    ;Edson de moura                                                            ;LIMPEZA                                           ;02/12/2021          ;1638441329          ;
+
+*106 - CONDOMINIO RESIDENCIAL OCTACILIO COSTA                                                        ;maria celoni girioli                                                      ;LIMPEZA                                           ;02/12/2021          ;1638443466          ;
+
+*093 - CONDOMINIO EDIFICIO DON JUAN                                                                  ;maria celoni girioli                                                      ;LIMPEZA                                           ;02/12/2021          ;1638443571          ;
+
+*515 - CONDOMINIO RESIDENCIAL AGUAS AZUIS                                                            ;Douglas Miranda                                                           ;MANUTENCAO DA PISCINA                             ;02/12/2021          ;1638446304          ;
